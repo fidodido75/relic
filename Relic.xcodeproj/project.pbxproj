@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAAAFBF46EF12A691294860F /* Pods_Relic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA46902623DB6CE879248B80 /* Pods_Relic.framework */; };
+		F32D81BA261729DD00DE4B0C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FD8261727E600C6F3B0 /* Task.swift */; };
+		F32D81BB261729DD00DE4B0C /* RelicRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FD9261727E600C6F3B0 /* RelicRepository.swift */; };
+		F32D81BD261729DD00DE4B0C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FDB261727E600C6F3B0 /* List.swift */; };
+		F32D81BE261729DD00DE4B0C /* ListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FD7261727E600C6F3B0 /* ListSection.swift */; };
+		F32D81C2261729E000DE4B0C /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FDE261727EE00C6F3B0 /* ListsViewController.swift */; };
+		F32D81C3261729E000DE4B0C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FE1261727EE00C6F3B0 /* ListViewController.swift */; };
+		F32D81C4261729E000DE4B0C /* ListEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FDF261727EE00C6F3B0 /* ListEditorViewController.swift */; };
+		F32D81C5261729E000DE4B0C /* TaskEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FDC261727EE00C6F3B0 /* TaskEditorViewController.swift */; };
+		F32D81C7261729E000DE4B0C /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1FE2261727EE00C6F3B0 /* TaskTableViewCell.swift */; };
+		F32D81CB26172A0C00DE4B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36A1FE0261727EE00C6F3B0 /* Main.storyboard */; };
+		F36A1F742617245F00C6F3B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1F732617245F00C6F3B0 /* AppDelegate.swift */; };
+		F36A1F762617245F00C6F3B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1F752617245F00C6F3B0 /* SceneDelegate.swift */; };
+		F36A1F7D2617246000C6F3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36A1F7C2617246000C6F3B0 /* Assets.xcassets */; };
+		F36A1F802617246000C6F3B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36A1F7E2617246000C6F3B0 /* LaunchScreen.storyboard */; };
+		F36A1F8B2617246000C6F3B0 /* RelicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1F8A2617246000C6F3B0 /* RelicTests.swift */; };
+		F36A1F962617246000C6F3B0 /* RelicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A1F952617246000C6F3B0 /* RelicUITests.swift */; };
+		F3C87A742617926E005790D2 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3C87A732617926E005790D2 /* RemoteConfigDefaults.plist */; };
+		F3C87A7926179311005790D2 /* ConfigurationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C87A7826179311005790D2 /* ConfigurationRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36A1F872617246000C6F3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36A1F682617245E00C6F3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36A1F6F2617245E00C6F3B0;
+			remoteInfo = Relic;
+		};
+		F36A1F922617246000C6F3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36A1F682617245E00C6F3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36A1F6F2617245E00C6F3B0;
+			remoteInfo = Relic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA46902623DB6CE879248B80 /* Pods_Relic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB8B0C601AB2440ADDADD67 /* Pods-Relic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relic.debug.xcconfig"; path = "Target Support Files/Pods-Relic/Pods-Relic.debug.xcconfig"; sourceTree = "<group>"; };
+		F36A1F702617245F00C6F3B0 /* Relic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36A1F732617245F00C6F3B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F36A1F752617245F00C6F3B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F36A1F7C2617246000C6F3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F36A1F7F2617246000C6F3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F36A1F812617246000C6F3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36A1F862617246000C6F3B0 /* RelicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36A1F8A2617246000C6F3B0 /* RelicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicTests.swift; sourceTree = "<group>"; };
+		F36A1F8C2617246000C6F3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36A1F912617246000C6F3B0 /* RelicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36A1F952617246000C6F3B0 /* RelicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicUITests.swift; sourceTree = "<group>"; };
+		F36A1F972617246000C6F3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36A1FD7261727E600C6F3B0 /* ListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSection.swift; sourceTree = "<group>"; };
+		F36A1FD8261727E600C6F3B0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F36A1FD9261727E600C6F3B0 /* RelicRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicRepository.swift; sourceTree = "<group>"; };
+		F36A1FDB261727E600C6F3B0 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		F36A1FDC261727EE00C6F3B0 /* TaskEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditorViewController.swift; sourceTree = "<group>"; };
+		F36A1FDE261727EE00C6F3B0 /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
+		F36A1FDF261727EE00C6F3B0 /* ListEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEditorViewController.swift; sourceTree = "<group>"; };
+		F36A1FE0261727EE00C6F3B0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F36A1FE1261727EE00C6F3B0 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F36A1FE2261727EE00C6F3B0 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		F3C87A732617926E005790D2 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		F3C87A7826179311005790D2 /* ConfigurationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationRepository.swift; sourceTree = "<group>"; };
+		F3C87AB626186A22005790D2 /* Relic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Relic.entitlements; sourceTree = "<group>"; };
+		FA57994AB4FE503785A6144E /* Pods-Relic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relic.release.xcconfig"; path = "Target Support Files/Pods-Relic/Pods-Relic.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36A1F6D2617245E00C6F3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAAFBF46EF12A691294860F /* Pods_Relic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A1F832617246000C6F3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A1F8E2617246000C6F3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F18D66E3B9DD895727F3A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA46902623DB6CE879248B80 /* Pods_Relic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		726B2FA7D6AA5FF5C088E19A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB8B0C601AB2440ADDADD67 /* Pods-Relic.debug.xcconfig */,
+				FA57994AB4FE503785A6144E /* Pods-Relic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F36A1F672617245E00C6F3B0 = {
+			isa = PBXGroup;
+			children = (
+				F36A1F722617245F00C6F3B0 /* Relic */,
+				F36A1F892617246000C6F3B0 /* RelicTests */,
+				F36A1F942617246000C6F3B0 /* RelicUITests */,
+				F36A1F712617245F00C6F3B0 /* Products */,
+				726B2FA7D6AA5FF5C088E19A /* Pods */,
+				0F18D66E3B9DD895727F3A73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F36A1F712617245F00C6F3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36A1F702617245F00C6F3B0 /* Relic.app */,
+				F36A1F862617246000C6F3B0 /* RelicTests.xctest */,
+				F36A1F912617246000C6F3B0 /* RelicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36A1F722617245F00C6F3B0 /* Relic */ = {
+			isa = PBXGroup;
+			children = (
+				F3C87AB626186A22005790D2 /* Relic.entitlements */,
+				F36A1F732617245F00C6F3B0 /* AppDelegate.swift */,
+				F36A1F752617245F00C6F3B0 /* SceneDelegate.swift */,
+				F36A1FC7261727B900C6F3B0 /* view */,
+				F36A1FC6261727B300C6F3B0 /* model */,
+				F36A1F7C2617246000C6F3B0 /* Assets.xcassets */,
+				F36A1F7E2617246000C6F3B0 /* LaunchScreen.storyboard */,
+				F36A1F812617246000C6F3B0 /* Info.plist */,
+				F3C87A732617926E005790D2 /* RemoteConfigDefaults.plist */,
+			);
+			path = Relic;
+			sourceTree = "<group>";
+		};
+		F36A1F892617246000C6F3B0 /* RelicTests */ = {
+			isa = PBXGroup;
+			children = (
+				F36A1F8A2617246000C6F3B0 /* RelicTests.swift */,
+				F36A1F8C2617246000C6F3B0 /* Info.plist */,
+			);
+			path = RelicTests;
+			sourceTree = "<group>";
+		};
+		F36A1F942617246000C6F3B0 /* RelicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F36A1F952617246000C6F3B0 /* RelicUITests.swift */,
+				F36A1F972617246000C6F3B0 /* Info.plist */,
+			);
+			path = RelicUITests;
+			sourceTree = "<group>";
+		};
+		F36A1FC6261727B300C6F3B0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F36A1FDB261727E600C6F3B0 /* List.swift */,
+				F36A1FD8261727E600C6F3B0 /* Task.swift */,
+				F36A1FD7261727E600C6F3B0 /* ListSection.swift */,
+				F36A1FD9261727E600C6F3B0 /* RelicRepository.swift */,
+				F3C87A7826179311005790D2 /* ConfigurationRepository.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F36A1FC7261727B900C6F3B0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F36A1FE0261727EE00C6F3B0 /* Main.storyboard */,
+				F36A1FDE261727EE00C6F3B0 /* ListsViewController.swift */,
+				F36A1FDF261727EE00C6F3B0 /* ListEditorViewController.swift */,
+				F36A1FE1261727EE00C6F3B0 /* ListViewController.swift */,
+				F36A1FDC261727EE00C6F3B0 /* TaskEditorViewController.swift */,
+				F36A1FE2261727EE00C6F3B0 /* TaskTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F36A1F6F2617245E00C6F3B0 /* Relic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36A1F9A2617246000C6F3B0 /* Build configuration list for PBXNativeTarget "Relic" */;
+			buildPhases = (
+				B27D15F8C58297F3402FD4C1 /* [CP] Check Pods Manifest.lock */,
+				F36A1F6C2617245E00C6F3B0 /* Sources */,
+				F36A1F6D2617245E00C6F3B0 /* Frameworks */,
+				F36A1F6E2617245E00C6F3B0 /* Resources */,
+				DC2834CFDEC2390C821043AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Relic;
+			productName = Relic;
+			productReference = F36A1F702617245F00C6F3B0 /* Relic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36A1F852617246000C6F3B0 /* RelicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36A1F9D2617246000C6F3B0 /* Build configuration list for PBXNativeTarget "RelicTests" */;
+			buildPhases = (
+				F36A1F822617246000C6F3B0 /* Sources */,
+				F36A1F832617246000C6F3B0 /* Frameworks */,
+				F36A1F842617246000C6F3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36A1F882617246000C6F3B0 /* PBXTargetDependency */,
+			);
+			name = RelicTests;
+			productName = RelicTests;
+			productReference = F36A1F862617246000C6F3B0 /* RelicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F36A1F902617246000C6F3B0 /* RelicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36A1FA02617246000C6F3B0 /* Build configuration list for PBXNativeTarget "RelicUITests" */;
+			buildPhases = (
+				F36A1F8D2617246000C6F3B0 /* Sources */,
+				F36A1F8E2617246000C6F3B0 /* Frameworks */,
+				F36A1F8F2617246000C6F3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36A1F932617246000C6F3B0 /* PBXTargetDependency */,
+			);
+			name = RelicUITests;
+			productName = RelicUITests;
+			productReference = F36A1F912617246000C6F3B0 /* RelicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36A1F682617245E00C6F3B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "DX Wave Limited";
+				TargetAttributes = {
+					F36A1F6F2617245E00C6F3B0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F36A1F852617246000C6F3B0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F36A1F6F2617245E00C6F3B0;
+					};
+					F36A1F902617246000C6F3B0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F36A1F6F2617245E00C6F3B0;
+					};
+				};
+			};
+			buildConfigurationList = F36A1F6B2617245E00C6F3B0 /* Build configuration list for PBXProject "Relic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F36A1F672617245E00C6F3B0;
+			productRefGroup = F36A1F712617245F00C6F3B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36A1F6F2617245E00C6F3B0 /* Relic */,
+				F36A1F852617246000C6F3B0 /* RelicTests */,
+				F36A1F902617246000C6F3B0 /* RelicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36A1F6E2617245E00C6F3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A1F802617246000C6F3B0 /* LaunchScreen.storyboard in Resources */,
+				F3C87A742617926E005790D2 /* RemoteConfigDefaults.plist in Resources */,
+				F32D81CB26172A0C00DE4B0C /* Main.storyboard in Resources */,
+				F36A1F7D2617246000C6F3B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A1F842617246000C6F3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A1F8F2617246000C6F3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B27D15F8C58297F3402FD4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Relic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2834CFDEC2390C821043AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Relic/Pods-Relic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Relic/Pods-Relic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Relic/Pods-Relic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36A1F6C2617245E00C6F3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32D81BB261729DD00DE4B0C /* RelicRepository.swift in Sources */,
+				F32D81C4261729E000DE4B0C /* ListEditorViewController.swift in Sources */,
+				F32D81C7261729E000DE4B0C /* TaskTableViewCell.swift in Sources */,
+				F32D81C3261729E000DE4B0C /* ListViewController.swift in Sources */,
+				F3C87A7926179311005790D2 /* ConfigurationRepository.swift in Sources */,
+				F32D81BD261729DD00DE4B0C /* List.swift in Sources */,
+				F32D81BA261729DD00DE4B0C /* Task.swift in Sources */,
+				F36A1F742617245F00C6F3B0 /* AppDelegate.swift in Sources */,
+				F32D81C2261729E000DE4B0C /* ListsViewController.swift in Sources */,
+				F36A1F762617245F00C6F3B0 /* SceneDelegate.swift in Sources */,
+				F32D81BE261729DD00DE4B0C /* ListSection.swift in Sources */,
+				F32D81C5261729E000DE4B0C /* TaskEditorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A1F822617246000C6F3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A1F8B2617246000C6F3B0 /* RelicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A1F8D2617246000C6F3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A1F962617246000C6F3B0 /* RelicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36A1F882617246000C6F3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36A1F6F2617245E00C6F3B0 /* Relic */;
+			targetProxy = F36A1F872617246000C6F3B0 /* PBXContainerItemProxy */;
+		};
+		F36A1F932617246000C6F3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36A1F6F2617245E00C6F3B0 /* Relic */;
+			targetProxy = F36A1F922617246000C6F3B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F36A1F7E2617246000C6F3B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36A1F7F2617246000C6F3B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F36A1F982617246000C6F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F36A1F992617246000C6F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F36A1F9B2617246000C6F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB8B0C601AB2440ADDADD67 /* Pods-Relic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Relic/Relic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Relic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.relic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36A1F9C2617246000C6F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA57994AB4FE503785A6144E /* Pods-Relic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Relic/Relic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Relic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.relic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F36A1F9E2617246000C6F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYCT88ZT59;
+				INFOPLIST_FILE = RelicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxwave.RelicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relic.app/Relic";
+			};
+			name = Debug;
+		};
+		F36A1F9F2617246000C6F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYCT88ZT59;
+				INFOPLIST_FILE = RelicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxwave.RelicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relic.app/Relic";
+			};
+			name = Release;
+		};
+		F36A1FA12617246000C6F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYCT88ZT59;
+				INFOPLIST_FILE = RelicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxwave.RelicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Relic;
+			};
+			name = Debug;
+		};
+		F36A1FA22617246000C6F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYCT88ZT59;
+				INFOPLIST_FILE = RelicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxwave.RelicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Relic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36A1F6B2617245E00C6F3B0 /* Build configuration list for PBXProject "Relic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A1F982617246000C6F3B0 /* Debug */,
+				F36A1F992617246000C6F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36A1F9A2617246000C6F3B0 /* Build configuration list for PBXNativeTarget "Relic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A1F9B2617246000C6F3B0 /* Debug */,
+				F36A1F9C2617246000C6F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36A1F9D2617246000C6F3B0 /* Build configuration list for PBXNativeTarget "RelicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A1F9E2617246000C6F3B0 /* Debug */,
+				F36A1F9F2617246000C6F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36A1FA02617246000C6F3B0 /* Build configuration list for PBXNativeTarget "RelicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36A1FA12617246000C6F3B0 /* Debug */,
+				F36A1FA22617246000C6F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F36A1F682617245E00C6F3B0 /* Project object */;
+}

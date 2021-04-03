@@ -1,1 +1,1 @@
-# Relic - A Simple To Do application
+# Relic - Simple To Do app
